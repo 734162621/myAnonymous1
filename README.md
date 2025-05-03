@@ -7,7 +7,7 @@
 
 
 
-<img src="D:\Pycharm Projects\2025\anonymous-llm-pysc2\docs\figures\fig11_00.png" alt="fig11_00" style="zoom: 15%;" />
+<img src="docs\figures\fig11_00.png" alt="fig11_00" style="zoom: 15%;" />
 
 
 
