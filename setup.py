@@ -16,20 +16,7 @@
 import distutils.command.build
 from setuptools import setup
 
-description = """LLM-PySC2 - LLM StarCraft II Learning Environment
-
-LLM-PySC2 is NKAI Decision Team and NUDT Decision Team's Python component of the StarCraft II 
-LLM Decision Environment. It exposes Deepmind's PySC2 Learning Environment API as a Python LLM 
-Environment. This is a collaboration between NKAI and NUDT to develop StarCraft II into a rich 
-environment for LLM research. LLM-PySC2 provides an interface for LLM agents to interact with 
-StarCraft 2, getting textual or multimodal observations and textual actions.
-
-Consider that we have not yet publish our paper, if you use the LLM-PySC2 environment or 
-LLM-SMAC tasks in your research, please cite the LLM StarCraft II github page temporarily. 
-
-Read the README for more information.
-
-"""
+description = """  """
 
 
 class BuildCommand(distutils.command.build.build):
@@ -45,8 +32,8 @@ setup(
     version='0.2.0',
     description='LLM Starcraft II environment and library for training agents.',
     long_description=description,
-    author='NKAI',
-    author_email='734162621@qq.com',
+    author='Anonymous',
+    author_email='Anonymous',
     cmdclass={'build': BuildCommand},
     license='Apache License, Version 2.0',
     keywords='StarCraft AI',
